@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="my-2 py-2 d-sm-flex">
-			<a href="donate.php" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a>
+			<a href="donate.php" class="btn p-3 bg-brown font-weight-bold btn-animate">Learn More</a>
 		</div>
 	</div>
 </div>
@@ -494,4 +494,3 @@
 		</div>
 	</div>
 
-	@section('footer')
