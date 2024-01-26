@@ -59,7 +59,7 @@
                     <span><i class="fas fa-microphone"></i></span>
                   </div>
                   <div class="body text-center">
-                    <h3>Studio</h3>
+                    <h3>Software Development</h3>
                     <p></p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@
                     <span><i class="fas fa-calendar-check"></i></span>
                   </div>
                   <div class="body text-center">
-                    <h3>Events</h3>
+                    <h3>Web Development</h3>
                     <p></p>
                   </div>
                 </div>
@@ -78,7 +78,7 @@
                     <span><i class="fas fa-book-open"></i></span>
                   </div>
                   <div class="body text-center">
-                    <h3>Study Programs</h3>
+                    <h3>Mobile Apps Development</h3>
                     <p></p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@
                     <span><i class="fas fa-file-alt"></i></span>
                   </div>
                   <div class="body text-center">
-                    <h3>Reports</h3>
+                    <h3>IT Consultation</h3>
                     <p></p>
                   </div>
                 </div>
