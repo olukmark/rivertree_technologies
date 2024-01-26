@@ -29,6 +29,10 @@ Route::get('/our-services', function () {
     return view('our-services');
 });
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 
 
 

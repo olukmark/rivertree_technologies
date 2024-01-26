@@ -11,13 +11,14 @@
 </head>
 <body>
     <!-- Header -->
-     <!-- Header -->
+    @include('includes/header')
+    <!-- Header -->
 
     <!-- Main Content -->
-    <main>
+      <main>
         @yield('content')
-    </main>
-
+      </main>
+    <!-- main -->
     <!-- Footer -->
     <footer class="site-footer mt-3">
       <div class="container">

@@ -1,13 +1,8 @@
 @extends('layouts/app')
 
 @section('title', 'Rivertree Technologies - Home')
-@section('header')
 
-<!-- Page title -->
-<?php $title = "StarFace CAMP"; ?>
-
-
-
+@section('content')
 <!-- Hero section -->
 <div class="hero-v1 hero-image">
 	<div class="custom-shape-divider-bottom-1630920106">
@@ -21,7 +16,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 mr-auto text-lg-left">
 				<!--<span class="d-block subheading">lorem</span>-->
-				<h1 class="heading mb-3 text-white">We Celebrate Diversity to Embrace Humanity Through Arts.</h1>
+				<h1 class="heading mb-3 text-white">Innovative solutions for your business</h1>
 			</div>
 		</div>
 		<div class="my-2 py-2 d-sm-flex">
@@ -287,108 +282,6 @@
 	</div>
 </div>
 
-<!-- Gallery section -->
-<div class="site-section">
-	<div class="container">
-		<div class="row mb-3">
-			<div class="col-lg-7 text-center mx-auto">
-				<h2 class="section-heading text-navy">GALLERY</h2>
-				<p></p>
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-12">
-				<div class="MultiCarousel" data-items="1,3,3,3" data-slide="1" id="MultiCarousel" data-interval="1000">
-					<div class="MultiCarousel-inner">
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-02.jpg">
-								<div class="bg-white py-3">
-									<p>Caption</p>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-06.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-10.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-04.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-09.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-01.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-04.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-06.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-05.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-09.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-19.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-20.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-21.jpg">
-							</div>
-						</div>
-						<div class="item">
-							<div class="pad15">
-								<img src="images/starface-22.jpg">
-							</div>
-						</div>
-					</div>
-					<button class="btn btn-primary leftLst">
-						<< /button>
-							<button class="btn btn-primary rightLst">></button>
-				</div>
-			</div>
-			<div class="col-lg-12">
-				<div class="container">
-					<div class="col-md-12">
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Join us section -->
 	<div class="site-section bg-purple">
 		<div class="container">
@@ -494,3 +387,4 @@
 		</div>
 	</div>
 
+@endsection
